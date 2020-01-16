@@ -263,11 +263,12 @@ a {
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
+  border-bottom: dotted 2px rgba(255, 255, 255, 0.25);
   color: #1cb495;
-  text-decoration: none; }
+  text-decoration: none; 
+  text-transform: uppercase;}
   a:hover {
-    border-bottom-color: transparent;
+    border-bottom: dotted 2px rgba(28,180,149, 0.25);
     color: #1cb495 !important;
     text-decoration: none; }
 
@@ -285,7 +286,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 700;
   line-height: 1.25em;
-  margin: 10px 0 .5em 0; }
+  margin: 10px 0 .5em 0; 
+text-transform: uppercase;}
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none; }
